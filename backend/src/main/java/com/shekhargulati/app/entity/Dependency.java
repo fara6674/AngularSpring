@@ -1,3 +1,5 @@
+package com.shekhargulati.app.entity;
+
 import java.util.Date;
 
 import javax.persistence.Column;
