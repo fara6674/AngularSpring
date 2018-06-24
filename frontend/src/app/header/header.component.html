@@ -1,0 +1,45 @@
+<div class="navigationbar">
+        <a [routerLink]="['/']">Home</a>
+        <a [routerLink]="['/dashboard']">DashBoard</a>
+        <!-- <div class="droptest">
+            <button class="dropbutton">Teams 
+                
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="droptest-content">
+                <a href="#team1">Team 1</a>
+                <a href="#team2">Team 2</a>
+                <a href="#team3">Team 3</a>
+            </div>
+        </div> -->
+        <div class="droptest">
+            <button class="dropbutton">Sprint 
+                  
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="droptest-content">
+                <a href="#sprint1">Sprint 1(Active)</a>
+                <a href="#sprint2">Sprint 2(Active)</a>
+                <a href="#sprint3">Sprint 3(Future)</a>
+            </div>
+        </div>
+        <a href="#story">Story</a>
+        <a [routerLink]="['/create']">Create</a>
+        
+        <div class="nav navbar-nav navbar-right">
+
+            
+            
+            <a [routerLink]="['/about']">
+                <span class="glyphicon"></span>  About
+            </a>
+            <a [routerLink]="['/register']">
+                <span class="glyphicon glyphicon-user"></span> Sign Up
+            </a>
+            
+            <a [routerLink]="['/login']">
+                <span class="glyphicon glyphicon-log-in"></span> Login&emsp;&emsp;
+
+            </a>
+        </div>
+    </div>

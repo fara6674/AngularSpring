@@ -1,0 +1,12 @@
+<h1>Hi {{currentUser.firstName}}! Welcome back</h1>
+
+<h3>All registered users are listed below:</h3>
+<ul>
+	<li *ngFor="let user of users">
+       <h3>Username: "{{user.username}}" Firstname: "{{user.firstName}}" Lastname: "{{user.lastName}}"</h3>
+	<h4>	<a (click)="deleteUser(user.id)" class="text-danger">Delete</a> </h4>
+	</li>
+</ul>
+<p>
+	<a [routerLink]="['/login']">Logout</a>
+</p>
